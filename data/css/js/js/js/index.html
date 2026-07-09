@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Container TMS</title>
+</head>
+<body>
+    <script>
+        // Redirect logic
+        const user = localStorage.getItem('currentUser');
+        window.location.href = user ? 'dashboard.html' : 'login.html';
+    </script>
+</body>
+</html>
